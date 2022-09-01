@@ -10,18 +10,18 @@ https://documenter.getpostman.com/view/12012748/VUr1JDGU
 
 ## /users
 
-POST: Create a new user
+POST: Create a new user ✅
 GET: get all list of users ✅
 
 ## /users/{id}
 
 GET: get a user by id ✅
-PUT: update a user by id
-DELETE: delete a user by id (check if he/she still has an issued book) (is there any fine to be paid)
+PUT: update a user by id ✅
+DELETE: delete a user by id (check if he/she still has an issued book) (is there any fine to be paid) ✅
 
 ## users/subscription-details/{id}
 
-GET: get user subscription details
+GET: get user subscription details ✅
 
 1. Date of subscription
 2. Valid till
@@ -29,27 +29,29 @@ GET: get user subscription details
 
 ## /books
 
-GET: Get all books
-POST: Create/add a new book
+GET: Get all books ✅
+POST: Create/add a new book ✅
 
 ## /books/{id}
 
-GET: Get a book by id
-PUT: update a book by id
+GET: Get a book by id ✅
+PUT: update a book by id ✅
 
 ## /books/issued
 
-GET: Get all issued books
+GET: Get all issued books ✅
 
 ## /books/issued/withFine
 
-GET: Get all issued books with fine.
+GET: Get all issued books with fine. ✅
 
 # Subscription Types
 
 Basic (3 months)
 Standard (6 months)
 Premium (12 months)
+
+NOTE: dates will be in format mm/dd/yyyy
 
 If the subscription date is 01/08/22
 and Subscription type is Standard
